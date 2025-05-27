@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),gtactive3)
+ifeq ($(TARGET_DEVICE),gtactive3cs)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gtactive3.mk
+    $(LOCAL_DIR)/lineage_gtactive3cs.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gtactive3-user \
-    lineage_gtactive3-userdebug \
-    lineage_gtactive3-eng
+    lineage_gtactive3cs-user \
+    lineage_gtactive3cs-userdebug \
+    lineage_gtactive3cs-eng

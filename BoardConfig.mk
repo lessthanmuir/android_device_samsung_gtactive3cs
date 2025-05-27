@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/gtactive3
+DEVICE_PATH := device/samsung/gtactive3cs
 
 # Architecture
 TARGET_ARCH := arm64
@@ -37,8 +37,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := gtactive3_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/gtactive3
+TARGET_KERNEL_CONFIG := gtactive3cs_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/gtactive3cs
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -92,4 +92,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/samsung/gtactive3/BoardConfigVendor.mk
+include vendor/samsung/gtactive3cs/BoardConfigVendor.mk

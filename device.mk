@@ -49,4 +49,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/samsung/gtactive3/gtactive3-vendor.mk)
+$(call inherit-product, vendor/samsung/gtactive3cs/gtactive3cs-vendor.mk)

@@ -1,4 +1,4 @@
-# Android device tree for samsung SM-T577U (gtactive3)
+# Android device tree for samsung SM-T577U (gtactive3cs)
 
 ```
 #

@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=gtactive3
+DEVICE=gtactive3cs
 VENDOR=samsung
 
 # Load extract_utils and do some sanity checks
