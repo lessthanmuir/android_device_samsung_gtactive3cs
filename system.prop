@@ -46,7 +46,6 @@ pm.dexopt.install-fast=skip
 pm.dexopt.post-boot=extract
 pm.dexopt.shared=speed
 ro.actionable_compatible_property.enabled=true
-ro.allow.mock.location=0
 ro.arch=exynos9810
 ro.audio.spatializer_enabled=true
 ro.binary.type=user
