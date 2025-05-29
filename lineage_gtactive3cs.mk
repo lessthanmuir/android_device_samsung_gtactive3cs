@@ -24,5 +24,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="gtactive3cs-user 13 TP1A.220624.014 T577UVLU4EWC1 release-keys"
+    PRODUCT_NAME=lineage_gtactive3cs
 
 BUILD_FINGERPRINT := samsung/gtactive3cs/gtactive3cs:13/TP1A.220624.014/T577UVLU4EWC1:user/release-keys
